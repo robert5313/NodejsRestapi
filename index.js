@@ -6,7 +6,6 @@ const { v4: uuid } = require('uuid');
 const port = 3000;
 const app = express();
 
-app.use(express.cors());
 app.use(express.json());
 
 app.get('/outfit', (req, res) => {
